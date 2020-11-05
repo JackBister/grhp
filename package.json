@@ -1,0 +1,36 @@
+{
+    "name": "grhp",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "Jack Bister",
+    "description": "Search HTML files using CSS selectors",
+    "homepage": "https://github.com/jackbister/grhp",
+    "keywords": [
+        "search",
+        "grep",
+        "html",
+        "selectors"
+    ],
+    "bin": {
+        "grhp": "grhp.js"
+    },
+    "scripts": {
+        "build": "tsc -p tsconfig.json"
+    },
+    "devDependencies": {
+        "@types/jsdom": "16.2.5",
+        "@types/glob": "5.0.35",
+        "typescript": "3.4.3"
+    },
+    "dependencies": {
+        "glob": "7.1.6",
+        "jsdom": "16.4.0"
+    },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jackbister/grhp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jackbister/grhp/issues"
+	}
+}
