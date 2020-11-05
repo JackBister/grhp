@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import * as fs from "fs";
 import { JSDOM } from "jsdom";
 import * as glob from "glob";
