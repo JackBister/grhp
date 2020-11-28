@@ -9,7 +9,7 @@ function main() {
         throw new Error("Usage: grhp [-i includeGlob] <querySelector>");
     }
     var includeGlobIndex = process.argv.indexOf("-i");
-    var includeGlob;
+    var includeGlob = "./**/*.html";
     if (includeGlobIndex !== -1) {
         if (includeGlobIndex >= process.argv.length - 2) {
             throw new Error("Must specify a glob pattern after -i");

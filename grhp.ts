@@ -9,7 +9,7 @@ function main() {
   }
 
   const includeGlobIndex = process.argv.indexOf("-i");
-  let includeGlob: string;
+  let includeGlob = "./**/*.html";
   if (includeGlobIndex !== -1) {
     if (includeGlobIndex >= process.argv.length - 2) {
       throw new Error("Must specify a glob pattern after -i");
